@@ -1,0 +1,15 @@
+C:\Users\Aluno_Analytics.CENTRO40\Desktop\PetShop\obj\Debug\net9.0\PetShop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aluno_Analytics.CENTRO40\Desktop\PetShop\obj\Debug\net9.0\PetShop.AssemblyInfoInputs.cache
+C:\Users\Aluno_Analytics.CENTRO40\Desktop\PetShop\obj\Debug\net9.0\PetShop.AssemblyInfo.cs
+C:\Users\Aluno_Analytics.CENTRO40\Desktop\PetShop\obj\Debug\net9.0\PetShop.csproj.CoreCompileInputs.cache
+C:\Users\Aluno_Analytics.CENTRO40\Desktop\PetShop\bin\Debug\net9.0\PetShop.exe
+C:\Users\Aluno_Analytics.CENTRO40\Desktop\PetShop\bin\Debug\net9.0\PetShop.deps.json
+C:\Users\Aluno_Analytics.CENTRO40\Desktop\PetShop\bin\Debug\net9.0\PetShop.runtimeconfig.json
+C:\Users\Aluno_Analytics.CENTRO40\Desktop\PetShop\bin\Debug\net9.0\PetShop.dll
+C:\Users\Aluno_Analytics.CENTRO40\Desktop\PetShop\bin\Debug\net9.0\PetShop.pdb
+C:\Users\Aluno_Analytics.CENTRO40\Desktop\PetShop\obj\Debug\net9.0\PetShop.dll
+C:\Users\Aluno_Analytics.CENTRO40\Desktop\PetShop\obj\Debug\net9.0\refint\PetShop.dll
+C:\Users\Aluno_Analytics.CENTRO40\Desktop\PetShop\obj\Debug\net9.0\PetShop.pdb
+C:\Users\Aluno_Analytics.CENTRO40\Desktop\PetShop\obj\Debug\net9.0\PetShop.genruntimeconfig.cache
+C:\Users\Aluno_Analytics.CENTRO40\Desktop\PetShop\obj\Debug\net9.0\ref\PetShop.dll
+C:\Users\Aluno_Analytics.CENTRO40\Desktop\PetShop\bin\Debug\net9.0\PetShop.xml

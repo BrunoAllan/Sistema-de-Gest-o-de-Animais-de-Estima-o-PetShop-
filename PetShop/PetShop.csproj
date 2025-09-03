@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- O programa será um executável de console -->
+    <OutputType>Exe</OutputType>
+
+    <!-- Alvo: .NET 9 -->
+    <TargetFramework>net9.0</TargetFramework>
+
+    <!-- Ativa geração de documentação XML -->
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+
+    <!-- Local onde o XML será salvo -->
+    <DocumentationFile>bin\Debug\net9.0\PetShop.xml</DocumentationFile>
+
+    <!-- Opcional: evita warnings de membros sem comentário XML -->
+    <NoWarn>$(NoWarn);1591</NoWarn>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PetShop</name>
+    </assembly>
+    <members>
+        <member name="F:Program.p">
+            <summary>
+            Instância compartilhada do PetShop usada pelas operações do programa.
+            </summary>
+        </member>
+        <member name="M:Program.Main">
+            <summary>
+            Ponto de entrada da aplicação. Mostra o menu e direciona para as ações.
+            </summary>
+            <remarks>
+            O método chama <see cref="M:Program.Main"/> novamente após cada operação via <see cref="M:Program.Continuar"/>,
+            funcionando como um laço de navegação simples.
+            </remarks>
+        </member>
+        <member name="M:Program.Sair">
+            <summary>
+            Encerra a aplicação com código de saída 0.
+            </summary>
+        </member>
+        <member name="M:Program.Continuar">
+            <summary>
+            Aguarda uma tecla, limpa a tela e retorna ao menu principal.
+            </summary>
+        </member>
+        <member name="M:Program.CalcularMedia">
+            <summary>
+            Calcula e exibe a média das idades de todos os animais cadastrados.
+            </summary>
+            <remarks>
+            Caso não haja animais cadastrados, informa o usuário.
+            </remarks>
+        </member>
+        <member name="M:Program.CadastrarCachorro">
+            <summary>
+            Fluxo de cadastro de um <see cref="T:Program.Cachorro"/>.
+            </summary>
+        </member>
+        <member name="M:Program.CadastrarGato">
+            <summary>
+            Fluxo de cadastro de um <see cref="T:Program.Gato"/>.
+            </summary>
+        </member>
+        <member name="M:Program.CadastrarPapagaio">
+            <summary>
+            Fluxo de cadastro de um <see cref="T:Program.Papagaio"/>.
+            </summary>
+        </member>
+        <member name="T:Program.Animal">
+            <summary>
+            Classe base que representa um animal genérico do pet shop.
+            </summary>
+        </member>
+        <member name="P:Program.Animal.Nome">
+            <summary>
+            Nome do animal.
+            </summary>
+            <value>Texto livre representando o nome.</value>
+        </member>
+        <member name="P:Program.Animal.Idade">
+            <summary>
+            Idade do animal em anos.
+            </summary>
+            <value>Inteiro maior ou igual a zero.</value>
+        </member>
+        <member name="M:Program.Animal.EmitirSom">
+            <summary>
+            Emite o som característico do animal.
+            </summary>
+        </member>
+        <member name="M:Program.Animal.ExibirInfo">
+            <summary>
+            Exibe no console as informações básicas do animal.
+            </summary>
+        </member>
+        <member name="T:Program.Cachorro">
+            <summary>
+            Representa um cachorro.
+            </summary>
+        </member>
+        <member name="P:Program.Cachorro.Raca">
+            <summary>
+            Raça do cachorro.
+            </summary>
+            <value>Texto livre com a raça.</value>
+        </member>
+        <member name="M:Program.Cachorro.ExibirInfo">
+            <inheritdoc/>
+        </member>
+        <member name="M:Program.Cachorro.EmitirSom">
+            <inheritdoc/>
+        </member>
+        <member name="T:Program.Gato">
+            <summary>
+            Representa um gato.
+            </summary>
+        </member>
+        <member name="P:Program.Gato.Cor">
+            <summary>
+            Cor predominante do gato.
+            </summary>
+            <value>Texto livre com a cor.</value>
+        </member>
+        <member name="M:Program.Gato.ExibirInfo">
+            <inheritdoc/>
+        </member>
+        <member name="M:Program.Gato.EmitirSom">
+            <inheritdoc/>
+        </member>
+        <member name="T:Program.Papagaio">
+            <summary>
+            Representa um papagaio.
+            </summary>
+        </member>
+        <member name="M:Program.Papagaio.ExibirInfo">
+            <inheritdoc/>
+        </member>
+        <member name="M:Program.Papagaio.EmitirSom">
+            <inheritdoc/>
+        </member>
+        <member name="T:Program.PetShop">
+            <summary>
+            Responsável por armazenar e operar sobre a lista de animais do pet shop.
+            </summary>
+        </member>
+        <member name="F:Program.PetShop.Animais">
+            <summary>
+            Lista estática de animais cadastrados.
+            </summary>
+            <remarks>
+            É estática para ser facilmente acessível em diferentes métodos do programa.
+            </remarks>
+        </member>
+        <member name="M:Program.PetShop.AdicionarAnimal(Program.Animal)">
+            <summary>
+            Adiciona um novo animal à lista.
+            </summary>
+            <param name="a">Instância do animal a ser adicionada.</param>
+        </member>
+        <member name="M:Program.PetShop.ListarAnimais">
+            <summary>
+            Lista todos os animais cadastrados, exibindo suas informações e sons.
+            </summary>
+        </member>
+    </members>
+</doc>
